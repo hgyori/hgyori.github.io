@@ -1,0 +1,75 @@
+img {
+  width:1300px;
+  margin-left:15px;
+  position:relative;
+  border:1p solid grey;
+}
+
+.cim {
+  position:absolute;
+  margin-top:-180px;
+  margin-left:300px;
+  font-size:30px;
+  line-height:70%;
+  font-family: 'Abril Fatface';
+}
+
+.summary {
+  font-family: 'Josefin Sans', sans-serif;
+  color:#222;
+  margin-left:350px;
+  margin-right:350px;
+  line-height:150%;
+}
+
+blockquote {
+  font-family:'Merriweather';
+  background-color:#222;
+  color:white;
+  font-size:45px;
+  height:120px;
+  width:700px;
+  text-align:center;
+  margin-left:350px;
+  margin-right:350px;
+  padding-top:10px;
+  padding-bottom:40px;
+  margin-top:30px;
+}
+
+blockquote::before {
+  content: '”';
+  font-size:80px;
+}
+
+.fejezetcim {
+  margin-left:350px;
+  margin-right:350px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  margin-left:350px;
+  margin-right:350px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-style:italic;
+}
+.text {
+  margin-left:350px;
+  margin-right:350px;
+  font-family:'Josefin Sans', sans-serif;
+  font-size:13px;
+  line-height:180%;
+  font-color:#222;
+}
+
+section {
+  border-top: 3px solid black;
+  margin-left:350px;
+  margin-right:350px;
+}
